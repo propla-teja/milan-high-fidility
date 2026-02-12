@@ -1,0 +1,169 @@
+{
+  "sections": [
+    {
+      "id": "auth_verification",
+      "title": "Onboarding & Verification",
+      "subtitle": "Covers login, OTP, lock, verification and device mismatch states.",
+      "items": [
+        {
+          "id": "onboarding_login",
+          "title": "Onboarding & Login",
+          "category": "authentication",
+          "description": "Brand-first splash and login intro with gradient style and smooth CTA placement.",
+          "cta": "Launch Login",
+          "tags": ["Auth", "Splash", "Brand"]
+        },
+        {
+          "id": "otp_screen",
+          "title": "OTP Screen",
+          "category": "authentication",
+          "description": "OTP input with resend timer, clear visual hierarchy, and primary conversion action.",
+          "cta": "Verify OTP",
+          "tags": ["OTP", "Security", "Timer"]
+        },
+        {
+          "id": "otp_expired",
+          "title": "OTP Expired",
+          "category": "authentication",
+          "description": "Handles expired code flow with retry call-to-action and contextual explanation.",
+          "cta": "Request New OTP",
+          "tags": ["Error", "Recovery"]
+        },
+        {
+          "id": "temporary_lock",
+          "title": "Temporary Lock",
+          "category": "verification",
+          "description": "User lock state with support route and reason summary for transparency.",
+          "cta": "Contact Support",
+          "tags": ["Risk", "Support"]
+        },
+        {
+          "id": "aadhaar",
+          "title": "Aadhaar Verification",
+          "category": "verification",
+          "description": "Government ID consent flow using clear text, compliance note and continue action.",
+          "cta": "Continue to DigiLocker",
+          "tags": ["KYC", "India", "Consent"]
+        },
+        {
+          "id": "digilocker",
+          "title": "DigiLocker Authorisation",
+          "category": "verification",
+          "description": "Auth bridge state to collect verified data from DigiLocker integration.",
+          "cta": "Authorise",
+          "tags": ["OAuth", "KYC"]
+        }
+      ]
+    },
+    {
+      "id": "engagement_states",
+      "title": "Match & Engagement States",
+      "subtitle": "Daily matches, likes flow, premium filters, expired matches and blocked chat states.",
+      "items": [
+        {
+          "id": "daily_matches",
+          "title": "Daily Matches Today",
+          "category": "match",
+          "description": "Daily match card with timer and premium upsell layer.",
+          "cta": "Explore Matches",
+          "tags": ["Match", "Daily"]
+        },
+        {
+          "id": "out_of_likes",
+          "title": "Out of Likes",
+          "category": "match",
+          "description": "User-friendly empty state with quick upgrade path when like quota is exhausted.",
+          "cta": "Upgrade Plan",
+          "tags": ["Limit", "Monetization"]
+        },
+        {
+          "id": "premium_locked_filter",
+          "title": "Premium Locked Filter",
+          "category": "match",
+          "description": "Locked filter explanation with premium CTA and contextual hints.",
+          "cta": "Go Premium",
+          "tags": ["Premium", "Filter"]
+        },
+        {
+          "id": "match_expired",
+          "title": "Match Expired",
+          "category": "match",
+          "description": "Expired match handling screen with renewal and alternate discovery options.",
+          "cta": "Renew Match",
+          "tags": ["Expiry", "Recovery"]
+        },
+        {
+          "id": "blocked_chat",
+          "title": "Blocked Chat",
+          "category": "chat",
+          "description": "Chat lock explanation due to policy violations or subscription states.",
+          "cta": "Resolve Issue",
+          "tags": ["Safety", "Chat"]
+        },
+        {
+          "id": "upgrade_chat",
+          "title": "Upgrade Chat",
+          "category": "chat",
+          "description": "Conversion panel to unlock messaging and advanced communication features.",
+          "cta": "Upgrade Chat",
+          "tags": ["Upgrade", "Chat"]
+        }
+      ]
+    },
+    {
+      "id": "profile_trust_safety",
+      "title": "Profile, Trust & Safety",
+      "subtitle": "Screens for account edits, reports, moderation controls and user safety feedback.",
+      "items": [
+        {
+          "id": "account_edit",
+          "title": "Account Editors",
+          "category": "profile",
+          "description": "Central edit hub for profile information, prompts, and settings.",
+          "cta": "Edit Profile",
+          "tags": ["Profile", "Settings"]
+        },
+        {
+          "id": "edit_photos",
+          "title": "Edit Photos",
+          "category": "profile",
+          "description": "Photo management state with reorder, add and approval badge flows.",
+          "cta": "Manage Photos",
+          "tags": ["Media", "Profile"]
+        },
+        {
+          "id": "incomplete_progress",
+          "title": "Incomplete Progress",
+          "category": "profile",
+          "description": "Progress nudges for incomplete onboarding/profile steps.",
+          "cta": "Complete Steps",
+          "tags": ["Progress", "Prompt"]
+        },
+        {
+          "id": "report_user",
+          "title": "Report User",
+          "category": "safety",
+          "description": "Structured report action with categories and optional note input.",
+          "cta": "Submit Report",
+          "tags": ["Moderation", "Safety"]
+        },
+        {
+          "id": "unmatch",
+          "title": "Unmatch",
+          "category": "safety",
+          "description": "One-tap unmatch confirmation with empathy-first explanation.",
+          "cta": "Unmatch User",
+          "tags": ["Action", "Control"]
+        },
+        {
+          "id": "block_user",
+          "title": "Block User",
+          "category": "safety",
+          "description": "Block flow with reason list and immediate safety controls.",
+          "cta": "Block Now",
+          "tags": ["Safety", "Hard Block"]
+        }
+      ]
+    }
+  ]
+}
