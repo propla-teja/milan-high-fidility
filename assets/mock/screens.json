@@ -1,0 +1,60 @@
+{
+  "screens": [
+    {
+      "id": "onboarding_login",
+      "title": "Onboarding & Login",
+      "description": "Brand-first loading screen with gradient background and secure login entry.",
+      "ctaLabel": "Start Onboarding",
+      "level": "info",
+      "icon": "verified_user"
+    },
+    {
+      "id": "otp_screen",
+      "title": "OTP Screen",
+      "description": "Enter OTP and continue to verification pipeline.",
+      "ctaLabel": "Confirm OTP",
+      "level": "info",
+      "icon": "lock"
+    },
+    {
+      "id": "otp_expired",
+      "title": "OTP Expired",
+      "description": "Session expired; resend OTP state from mocked backend.",
+      "ctaLabel": "Resend OTP",
+      "level": "warning",
+      "icon": "timer_off"
+    },
+    {
+      "id": "verification_failed",
+      "title": "Temporary Lock / Verification Failed",
+      "description": "Device mismatch or temporary lock state with support CTA.",
+      "ctaLabel": "Contact Support",
+      "level": "error",
+      "icon": "report"
+    },
+    {
+      "id": "verification_complete",
+      "title": "Verification Complete",
+      "description": "KYC success state after Aadhaar and DigiLocker authorization.",
+      "ctaLabel": "Continue",
+      "level": "success",
+      "icon": "verified_user"
+    },
+    {
+      "id": "payment_failed",
+      "title": "Payment Failed",
+      "description": "Retry premium payment from out-of-likes and premium lock screens.",
+      "ctaLabel": "Retry Payment",
+      "level": "error",
+      "icon": "payments"
+    },
+    {
+      "id": "report_user",
+      "title": "Report User",
+      "description": "Safety report categories and one-tap moderation workflow.",
+      "ctaLabel": "Submit Report",
+      "level": "warning",
+      "icon": "report"
+    }
+  ]
+}
