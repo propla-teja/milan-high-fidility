@@ -1,7 +1,5 @@
-.dart_tool/
-.packages
-.pub/
-build/
-ios/Pods/
-android/.gradle/
-*.iml
+node_modules/
+dist/
+.vite/
+coverage/
+.DS_Store
