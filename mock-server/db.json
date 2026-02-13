@@ -1,0 +1,553 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "name": "Onboarding & Verification",
+      "description": "Authentication, KYC and security states."
+    },
+    {
+      "id": 2,
+      "name": "Discovery & Matching",
+      "description": "Feed, likes, filters and matching."
+    },
+    {
+      "id": 3,
+      "name": "Chat & Safety",
+      "description": "Conversations, reports and block flows."
+    },
+    {
+      "id": 4,
+      "name": "Profile & Subscription",
+      "description": "Profile edits, settings, plans and payments."
+    },
+    {
+      "id": 5,
+      "name": "Support & Alerts",
+      "description": "Notifications, failures and support views."
+    }
+  ],
+  "screens": [
+    {
+      "id": 1,
+      "sectionId": 1,
+      "title": "Splash Screen",
+      "status": "ready",
+      "flow": "Onboarding",
+      "description": "Splash Screen UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 2,
+      "sectionId": 1,
+      "title": "Login Screen",
+      "status": "ready",
+      "flow": "Onboarding",
+      "description": "Login Screen UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 3,
+      "sectionId": 1,
+      "title": "OTP Screen",
+      "status": "in-progress",
+      "flow": "Onboarding",
+      "description": "OTP Screen UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 4,
+      "sectionId": 1,
+      "title": "OTP Expired",
+      "status": "ready",
+      "flow": "Onboarding",
+      "description": "OTP Expired UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 5,
+      "sectionId": 1,
+      "title": "Temporary Lock",
+      "status": "needs-review",
+      "flow": "Onboarding",
+      "description": "Temporary Lock UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 6,
+      "sectionId": 1,
+      "title": "Device Mismatch",
+      "status": "in-progress",
+      "flow": "Onboarding",
+      "description": "Device Mismatch UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 7,
+      "sectionId": 1,
+      "title": "Suspended Account",
+      "status": "needs-review",
+      "flow": "Onboarding",
+      "description": "Suspended Account UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 8,
+      "sectionId": 1,
+      "title": "Aadhaar Verification",
+      "status": "needs-review",
+      "flow": "Onboarding",
+      "description": "Aadhaar Verification UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 9,
+      "sectionId": 1,
+      "title": "DigiLocker Authorization",
+      "status": "needs-review",
+      "flow": "Onboarding",
+      "description": "DigiLocker Authorization UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 10,
+      "sectionId": 1,
+      "title": "Age Restriction",
+      "status": "needs-review",
+      "flow": "Onboarding",
+      "description": "Age Restriction UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 11,
+      "sectionId": 1,
+      "title": "Verification in Progress",
+      "status": "in-progress",
+      "flow": "Onboarding",
+      "description": "Verification in Progress UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 12,
+      "sectionId": 1,
+      "title": "Face Mismatch",
+      "status": "ready",
+      "flow": "Onboarding",
+      "description": "Face Mismatch UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 13,
+      "sectionId": 2,
+      "title": "Daily Matches Today",
+      "status": "in-progress",
+      "flow": "Discovery",
+      "description": "Daily Matches Today UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 14,
+      "sectionId": 2,
+      "title": "Out of Likes",
+      "status": "needs-review",
+      "flow": "Discovery",
+      "description": "Out of Likes UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 15,
+      "sectionId": 2,
+      "title": "Premium Locked Filter",
+      "status": "ready",
+      "flow": "Discovery",
+      "description": "Premium Locked Filter UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 16,
+      "sectionId": 2,
+      "title": "Match Expired",
+      "status": "ready",
+      "flow": "Discovery",
+      "description": "Match Expired UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 17,
+      "sectionId": 2,
+      "title": "Blocked Chat",
+      "status": "needs-review",
+      "flow": "Discovery",
+      "description": "Blocked Chat UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 18,
+      "sectionId": 2,
+      "title": "Upgrade Chat",
+      "status": "in-progress",
+      "flow": "Discovery",
+      "description": "Upgrade Chat UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 19,
+      "sectionId": 2,
+      "title": "Payment Failed",
+      "status": "in-progress",
+      "flow": "Discovery",
+      "description": "Payment Failed UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 20,
+      "sectionId": 2,
+      "title": "Arrived Unread",
+      "status": "needs-review",
+      "flow": "Discovery",
+      "description": "Arrived Unread UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 21,
+      "sectionId": 2,
+      "title": "First User",
+      "status": "needs-review",
+      "flow": "Discovery",
+      "description": "First User UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 22,
+      "sectionId": 2,
+      "title": "Boost Prompt",
+      "status": "needs-review",
+      "flow": "Discovery",
+      "description": "Boost Prompt UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 23,
+      "sectionId": 2,
+      "title": "Super Like",
+      "status": "in-progress",
+      "flow": "Discovery",
+      "description": "Super Like UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 24,
+      "sectionId": 2,
+      "title": "Nearby Professionals",
+      "status": "needs-review",
+      "flow": "Discovery",
+      "description": "Nearby Professionals UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 25,
+      "sectionId": 3,
+      "title": "Report User",
+      "status": "needs-review",
+      "flow": "Chat",
+      "description": "Report User UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 26,
+      "sectionId": 3,
+      "title": "Unmatch",
+      "status": "needs-review",
+      "flow": "Chat",
+      "description": "Unmatch UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 27,
+      "sectionId": 3,
+      "title": "Block User",
+      "status": "ready",
+      "flow": "Chat",
+      "description": "Block User UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 28,
+      "sectionId": 3,
+      "title": "Blocked Users List",
+      "status": "in-progress",
+      "flow": "Chat",
+      "description": "Blocked Users List UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 29,
+      "sectionId": 3,
+      "title": "Chat Carried Folder",
+      "status": "needs-review",
+      "flow": "Chat",
+      "description": "Chat Carried Folder UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 30,
+      "sectionId": 3,
+      "title": "Conversation Request",
+      "status": "in-progress",
+      "flow": "Chat",
+      "description": "Conversation Request UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 31,
+      "sectionId": 3,
+      "title": "Verified Badge Prompt",
+      "status": "in-progress",
+      "flow": "Chat",
+      "description": "Verified Badge Prompt UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 32,
+      "sectionId": 3,
+      "title": "Safety Tips Modal",
+      "status": "ready",
+      "flow": "Chat",
+      "description": "Safety Tips Modal UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 33,
+      "sectionId": 3,
+      "title": "Voice Note Disabled",
+      "status": "in-progress",
+      "flow": "Chat",
+      "description": "Voice Note Disabled UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 34,
+      "sectionId": 3,
+      "title": "Content Support",
+      "status": "ready",
+      "flow": "Chat",
+      "description": "Content Support UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 35,
+      "sectionId": 3,
+      "title": "Escalation Queue",
+      "status": "needs-review",
+      "flow": "Chat",
+      "description": "Escalation Queue UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 36,
+      "sectionId": 3,
+      "title": "Mute User",
+      "status": "needs-review",
+      "flow": "Chat",
+      "description": "Mute User UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 37,
+      "sectionId": 4,
+      "title": "Account Editors",
+      "status": "ready",
+      "flow": "Profile",
+      "description": "Account Editors UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 38,
+      "sectionId": 4,
+      "title": "Edit Photos",
+      "status": "in-progress",
+      "flow": "Profile",
+      "description": "Edit Photos UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 39,
+      "sectionId": 4,
+      "title": "Incomplete Progress",
+      "status": "ready",
+      "flow": "Profile",
+      "description": "Incomplete Progress UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 40,
+      "sectionId": 4,
+      "title": "Verification Status",
+      "status": "in-progress",
+      "flow": "Profile",
+      "description": "Verification Status UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 41,
+      "sectionId": 4,
+      "title": "Subscription Expire",
+      "status": "needs-review",
+      "flow": "Profile",
+      "description": "Subscription Expire UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 42,
+      "sectionId": 4,
+      "title": "Plan Comparison",
+      "status": "ready",
+      "flow": "Profile",
+      "description": "Plan Comparison UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 43,
+      "sectionId": 4,
+      "title": "Renew Subscription",
+      "status": "ready",
+      "flow": "Profile",
+      "description": "Renew Subscription UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 44,
+      "sectionId": 4,
+      "title": "Payment Methods",
+      "status": "needs-review",
+      "flow": "Profile",
+      "description": "Payment Methods UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 45,
+      "sectionId": 4,
+      "title": "Billing History",
+      "status": "ready",
+      "flow": "Profile",
+      "description": "Billing History UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 46,
+      "sectionId": 4,
+      "title": "Transaction Failed",
+      "status": "needs-review",
+      "flow": "Profile",
+      "description": "Transaction Failed UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 47,
+      "sectionId": 4,
+      "title": "Delete Account",
+      "status": "ready",
+      "flow": "Profile",
+      "description": "Delete Account UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 48,
+      "sectionId": 4,
+      "title": "Logout Confirmation",
+      "status": "in-progress",
+      "flow": "Profile",
+      "description": "Logout Confirmation UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 49,
+      "sectionId": 5,
+      "title": "Push Notification Center",
+      "status": "needs-review",
+      "flow": "Support",
+      "description": "Push Notification Center UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 50,
+      "sectionId": 5,
+      "title": "In-App Alerts",
+      "status": "needs-review",
+      "flow": "Support",
+      "description": "In-App Alerts UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 51,
+      "sectionId": 5,
+      "title": "Support Ticket",
+      "status": "in-progress",
+      "flow": "Support",
+      "description": "Support Ticket UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 52,
+      "sectionId": 5,
+      "title": "Priority Inbox",
+      "status": "needs-review",
+      "flow": "Support",
+      "description": "Priority Inbox UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900"
+    },
+    {
+      "id": 53,
+      "sectionId": 5,
+      "title": "KYC Reminder",
+      "status": "needs-review",
+      "flow": "Support",
+      "description": "KYC Reminder UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 54,
+      "sectionId": 5,
+      "title": "Payment Retry",
+      "status": "needs-review",
+      "flow": "Support",
+      "description": "Payment Retry UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 55,
+      "sectionId": 5,
+      "title": "Profile Completion Prompt",
+      "status": "in-progress",
+      "flow": "Support",
+      "description": "Profile Completion Prompt UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=900"
+    },
+    {
+      "id": 56,
+      "sectionId": 5,
+      "title": "Upgrade Nudges",
+      "status": "in-progress",
+      "flow": "Support",
+      "description": "Upgrade Nudges UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    },
+    {
+      "id": 57,
+      "sectionId": 5,
+      "title": "Event Banner",
+      "status": "in-progress",
+      "flow": "Support",
+      "description": "Event Banner UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=900"
+    },
+    {
+      "id": 58,
+      "sectionId": 5,
+      "title": "Activity Digest",
+      "status": "in-progress",
+      "flow": "Support",
+      "description": "Activity Digest UI with reusable components and mock API-driven content.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=900"
+    }
+  ]
+}
